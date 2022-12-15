@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Puzzle</title>
+        <style>
+        .cont {
+                text-align: center;
+                border-left: 5px solid gray;
+                border-top: 5px solid gray;
+                border-bottom: 5px solid black;
+                border-right: 5px solid black;
+                width: 600px;
+        }
+
+        .left_right {
+            width: 197px;
+        }
+        .p {
+           padding: 15px 3px 15px 3px; 
+        }
+        
+        .p1 {
+            padding-top: 20px;
+        }
+
+        .bdr {
+            border: 1px solid gray;
+            margin: 1px;
+        }
+        .horizontal {
+            display: inline-flex;
+        }
+
+        .b {
+            height: 75px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="cont c">
+            <div class="top_bot bdr">
+                <h1>Top</h1> 
+            </div>
+
+            <div class="top_bot horizontal">
+                <div class="left_right bdr p1">
+                    <h2>way left</h2> 
+                </div>
+                <div class="left_right">
+                    <h2 class="bdr p">
+                        middle up
+                    </h2>
+                    <h2 class="bdr p">
+                        middle down
+                    </h2>
+                </div>
+                <div class="left_right bdr p1">
+                    <h2>way right</h2> 
+                </div>
+            </div>
+            
+            <div class="top_bot bdr b">
+                 
+            </div>
+        </div>
+    </body>
+</html>

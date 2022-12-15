@@ -1,0 +1,21 @@
+.body {
+    margin: 0;
+    background-color: rgb(99, 99, 241);
+}
+
+.top_bot {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.tb {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
+.fnt {
+    font-family: Comic Sans MS;
+}
